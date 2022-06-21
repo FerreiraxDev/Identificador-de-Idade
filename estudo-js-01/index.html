@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Validador de Idade</title>
+</head>
+<body>
+    <div class="box-center-geral">
+
+        <h1>Valide sua idade</h1>
+        <div class="idade">
+            <p>Digite o ano de nascimento</p>
+            <input type="number" placeholder="Sua idade aqui" id="number" minlength="4">
+        </div>
+
+        <div class="sexo">
+            <p>Selecione sua sexualidade</p>
+            <input type="radio" name="sex" id="rad-mas">
+            <label for="rad-mas">Masculino</label>
+            <input type="radio" name="sex" id="rad-fem">
+            <label for="rad-fem">Feminino</label>
+        </div>
+
+        <div class="inp-btn">
+            <input type="button" value="Verificar" id="btn" onclick="verificar()">
+        </div><!-- inp-btn -->
+
+        <div id="res">
+            Preencha os dados acima para obter o resultado !
+            
+        </div>
+
+
+    </div><!-- box-geral -->
+
+
+
+
+
+    <script src="function.js"></script>
+</body>
+</html>

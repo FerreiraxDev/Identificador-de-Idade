@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 50vh;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.box-center-geral{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+.idade{
+    margin-top: 2rem;
+}
+
+#number::-webkit-input-placeholder{
+    text-align: center;
+}
+
+.sexo{
+    margin-top: 2rem;
+}
+
+#rad-mas{
+    margin: 1rem 0;
+}
+
+
+#res{
+    margin: 1.3rem 0rem;
+}
